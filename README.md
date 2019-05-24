@@ -1,1 +1,3 @@
-# just-to-be-insured_hackathon19
+# Just to be insured
+
+Just to be sure, get insured.
