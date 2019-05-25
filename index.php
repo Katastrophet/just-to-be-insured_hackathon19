@@ -7,17 +7,26 @@
         <link rel="stylesheet" href="resources/ext/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css">
         <link rel="stylesheet" href="resources/ext/bootstrap-4.3.1-dist/css/bootstrap.min.css">
         <!--- Eigenes CSS --->
-        <link reld="stylesheet" href="resources/css/main_style.css">
+        <link rel="stylesheet" href="resources/css/main_style.css">
+        <link rel="stylesheet" href="resources/css/name_container.css">
+        <link rel="stylesheet" href="resources/css/select_container.css">
+        <link rel="stylesheet" href="resources/css/dropdown_container.css">
         <!--- Font Awesome --->
 	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     </head>
     <body>
+	    
+	    <!-- name container-->
+	    
+	    <?php include("resources/assets/name_container.php"); ?>
+		<?php include("resources/assets/select_container.php"); ?>
+		<?php include ("resources/assets/dropdown.php"); ?>
+	    <!-- name container ende -->
 	    <script src="resources/js/jtbiApp.js"></script>
         <script src="resources/js/jtbiModel.js"></script>
 		<script src="resources/js/jtbiView.js"></script>
 		<script src="resources/js/jtbiController.js"></script>
-
-       
+       <div id="footer">Just to be insured.</div>
         <script>
             jtbiApp.init();
         </script>
